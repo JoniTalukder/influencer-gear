@@ -195,3 +195,43 @@ footer p{
     border-radius: 100%;
     line-height: 2;
 }
+
+/*-----------------
+     Media Query
+----------------- */
+
+/* Mobile Devices */
+
+main{width: 100%;} 
+@media (max-width:668px){
+    header h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .banner-area {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .client-logo {
+        flex-wrap: wrap;
+        padding: 10px 0px;
+        border: none;
+    }
+    .single-logo {
+        margin: 5px;
+    }
+    .wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
