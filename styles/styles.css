@@ -60,6 +60,7 @@ button{
 
 
 /* banner image  */
+
 .banner-img {
     border: 1px solid #F1E4FF;
     width: 475px;
@@ -86,7 +87,6 @@ button{
 
 .popular-collection{
     margin-top: 92px;
-    /* background-color: #aaa; */
 }
 .popular-heading{
     font-size: 28px;
@@ -202,7 +202,7 @@ footer p{
 
 /* Mobile Devices */
 
-main{width: 100%;} 
+ 
 @media (max-width:668px){
     header h1 {
         margin-left: 0;
