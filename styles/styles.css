@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: #FFFFFF;
+}
+
+/* Header Style  */
+header h1{
+    font-weight: bold;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+
+button{
+    background-color: #E02C6D;
+    width:196px;
+    height: 43px;
+    color: #fff;
+}
+
